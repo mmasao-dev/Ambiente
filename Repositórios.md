@@ -9,8 +9,8 @@ Acesse o github e crie um novo reposit?rio.
 - Descreva o reposit?rio - opcional
 - Defina se ele vai ser p?blico ou privado
 - Adicione o arquivo readme - opcional
-- Adicione arquivos do gitignore se já tiver
-- Escolha a licença
+- Adicione arquivos do gitignore - opcional
+- Escolha a licen?a
 
 Clique em criar reposit?rio
 
