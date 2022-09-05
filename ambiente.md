@@ -101,8 +101,3 @@ O git já vem instalado por padrão nesta versão do ubuntu não sendo necessário re
 Caso tenha baixado uma outra versão da distro realize a instalação do git 
 
 > sudo apt update & apt install git
-
-
-
-
-
