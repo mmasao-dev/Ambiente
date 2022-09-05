@@ -23,7 +23,7 @@ O documento está escrito em markdown para facilitar a compatibilidade entre plat
 
 No final teremos uma ambiente de desenvolvimento windows 
 
-## Conhecimentos necessários
+## Conhecimentos necess?rios
 
 - Windows 
 - Windows Store
