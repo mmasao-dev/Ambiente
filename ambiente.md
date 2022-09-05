@@ -1,10 +1,36 @@
 # Criando ambiente 
 
+## Introdução
+Dizem que o melhor ambiente para desenvolvimento seguro é usar um sistema operacional baseado no linux como a distro Ubuntu®, que é uma das preferidas pelo ambiente amigável
+
+Mas como a maioria dos usuários são acostumada ao sistema Windows, sente muitas dificuldades ao migrar totalmente de plataforma e normalmente acaba voltando para o windows.
+
+Existem soluções em que podemos utilizar para criar o ambiente de desenvolvimento, como termos um dual boot na máquina com windows e linux ou utilizando git, tortoise-git e vscode. 
+
+Para um ambiente de desenvolvimento utilizando o melhor de ambos os sistemas, vamos montar o ambiente baseado no wsl2 e vscode, onde teremos o beneficio do linux sem alterarmos de sistemas. 
+
+## Objetivo 
+
+Habilitar o usuário a configurar um ambiente seguro de desenvolvimento no sistema Windows usando o Wsl.
+
+
+## Resumo 
+Este documento tem os passos basicos de uma criação de ambiente de desenvolvimento dentro do windows utilizando linux através do microsoft wsl2 e editor vscode .
+
+Será abordado a instalação do wsl2, vscode, windows terminal.
+
+O documento está escrito em markdown para facilitar a compatibilidade entre plataformas.
+
+No final teremos uma ambiente de desenvolvimento windows 
+
 ## Conhecimentos necessários
 
+- Windows 
+- Windows Store
+- Powershell
 - Linux (ubuntu)
 - GIT
-- Markdown 
+
 
 ## Softwares 
 - WSL
@@ -38,7 +64,11 @@ Atualize o ubuntu com o comando
 
 > sudo apt update & apt upgrade -y 
 
-### Windows Terminal
+### Windows Terminal (Opcional)
+
+Ao utilizar o Wsl, será aberto um terminal bash, caso precise utilizar um segundo terminal, ao abrir o linux será aberto uma nova janela.
+O Windows terminal pode melhorar o uso, onde teremos apenas uma janela e os terminais estarão separados por abas.
+
 Baixe o Windows terminal - necessário caso vc queira usar mais de uma instancia do ubuntu, ela é compativel com os terminais shell windows e linux.
 
 Configurando Terminal Windows
