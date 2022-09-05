@@ -102,17 +102,7 @@ Caso tenha baixado uma outra versão da distro realize a instalação do git
 
 > sudo apt update & apt install git
 
-### Configuração Git 
 
-Realize a configuração do git para identificação
-
-> git config --global user.name "Fulano de Tal"
-
-> git config --global user.email seuemail@seudominio
-
-Estas configuirações são necessário para identificar o autor no caso de se conectar com algum repositório git.
-
----
 
 
 
