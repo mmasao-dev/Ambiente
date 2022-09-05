@@ -24,7 +24,7 @@ github.com/signup
 * ***Entre com seu e-mail***
 * *Crie uma senha**
 
-* **Confirme sua conta no e-mail enviado pelo sistema.***
+* **Confirme sua conta no e-mail enviado pelo sistema.**</i>
 
 ### *Enviar Commits*
 
