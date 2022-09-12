@@ -1,25 +1,25 @@
 # Criando ambiente 
 
-## Introdução
-Dizem que o melhor ambiente para desenvolvimento seguro é usar um sistema operacional baseado no linux como a distro Ubuntu®, que é uma das preferidas pelo ambiente amigável
+## IntroduÃ§Ã£o
+Dizem que o melhor ambiente para desenvolvimento seguro Ã© usar um sistema operacional baseado no linux como a distro UbuntuÂ®, que Ã© uma das preferidas pelo ambiente amigÃ¡vel
 
-Mas como a maioria dos usuários são acostumada ao sistema Windows, sente muitas dificuldades ao migrar totalmente de plataforma e normalmente acaba voltando para o windows.
+Mas como a maioria dos usuÃ¡rios sÃ£o acostumada ao sistema Windows, sente muitas dificuldades ao migrar totalmente de plataforma e normalmente acaba voltando para o windows.
 
-Existem soluções em que podemos utilizar para criar o ambiente de desenvolvimento, como termos um dual boot na máquina com windows e linux ou utilizando git, tortoise-git e vscode. 
+Existem soluÃ§Ãµes em que podemos utilizar para criar o ambiente de desenvolvimento, como termos um dual boot na mÃ¡quina com windows e linux ou utilizando git, tortoise-git e vscode. 
 
 Para um ambiente de desenvolvimento utilizando o melhor de ambos os sistemas, vamos montar o ambiente baseado no wsl2 e vscode, onde teremos o beneficio do linux sem alterarmos de sistemas. 
 
 ## Objetivo 
 
-Habilitar o usuário a configurar um ambiente seguro de desenvolvimento no sistema Windows usando o Wsl.
+Habilitar o usuÃ¡rio a configurar um ambiente seguro de desenvolvimento no sistema Windows usando o Wsl.
 
 
 ## Resumo 
-Este documento tem os passos basicos de uma criação de ambiente de desenvolvimento dentro do windows utilizando linux através do microsoft wsl2 e editor vscode .
+Este documento tem os passos basicos de uma criaÃ§Ã£o de ambiente de desenvolvimento dentro do windows utilizando linux atravÃ©s do microsoft wsl2 e editor vscode .
 
-Será abordado a instalação do wsl2, vscode, windows terminal.
+SerÃ¡ abordado a instalaÃ§Ã£o do wsl2, vscode, windows terminal.
 
-O documento está escrito em markdown para facilitar a compatibilidade entre plataformas.
+O documento estÃ¡ escrito em markdown para facilitar a compatibilidade entre plataformas.
 
 No final teremos uma ambiente de desenvolvimento windows 
 
@@ -40,7 +40,7 @@ No final teremos uma ambiente de desenvolvimento windows
 
 ## wls2 
 
-    A instalação do wsl2 pode ser seguida no site da microsoft e seguir o passo a passo e não será abordada 
+    A instalaÃ§Ã£o do wsl2 pode ser seguida no site da microsoft e seguir o passo a passo e nÃ£o serÃ¡ abordada 
 
     https://docs.microsoft.com/pt-br/windows/wsl/install
 
@@ -50,15 +50,15 @@ Instalando software iniciais.
 Acesse microsoft Store para a distro e o windows terminal
 
 ### Ubuntu
- Baixe a distribuição ubuntu - pode ser selecionado a instalação da versão do ubuntu 18.02 LTS até a recente versão 22.04 LTS, de preferencia para a mais recente. 
+ Baixe a distribuiÃ§Ã£o ubuntu - pode ser selecionado a instalaÃ§Ã£o da versÃ£o do ubuntu 18.02 LTS atÃ© a recente versÃ£o 22.04 LTS, de preferencia para a mais recente. 
 
- Ao final da instalação será necessário configurar seu usuário 
+ Ao final da instalaÃ§Ã£o serÃ¡ necessÃ¡rio configurar seu usuÃ¡rio 
 
- será apenas será solicitado o nome de usuário e a senha.
+ serÃ¡ apenas serÃ¡ solicitado o nome de usuÃ¡rio e a senha.
 
- após finalizar a instalação o terminal bash do ubuntu será aberto.
+ apÃ³s finalizar a instalaÃ§Ã£o o terminal bash do ubuntu serÃ¡ aberto.
 
- Neste ponto já temos uma distro linux rodando na sua máquina.
+ Neste ponto jÃ¡ temos uma distro linux rodando na sua mÃ¡quina.
 
 Atualize o ubuntu com o comando 
 
@@ -66,38 +66,38 @@ Atualize o ubuntu com o comando
 
 ### Windows Terminal (Opcional)
 
-Ao utilizar o Wsl, será aberto um terminal bash, caso precise utilizar um segundo terminal, ao abrir o linux será aberto uma nova janela.
-O Windows terminal pode melhorar o uso, onde teremos apenas uma janela e os terminais estarão separados por abas.
+Ao utilizar o Wsl, serÃ¡ aberto um terminal bash, caso precise utilizar um segundo terminal, ao abrir o linux serÃ¡ aberto uma nova janela.
+O Windows terminal pode melhorar o uso, onde teremos apenas uma janela e os terminais estarÃ£o separados por abas.
 
-Baixe o Windows terminal - necessário caso vc queira usar mais de uma instancia do ubuntu, ela é compativel com os terminais shell windows e linux.
+Baixe o Windows terminal - necessÃ¡rio caso vc queira usar mais de uma instancia do ubuntu, ela Ã© compativel com os terminais shell windows e linux.
 
 Configurando Terminal Windows
 
-Abra o terminal windows, por padrão o prompt de command será aberto.
+Abra o terminal windows, por padrÃ£o o prompt de command serÃ¡ aberto.
 
-Vá em configurações (ctrl+,) em inicialização selecione o perfil padrão como ubuntu 
+VÃ¡ em configuraÃ§Ãµes (ctrl+,) em inicializaÃ§Ã£o selecione o perfil padrÃ£o como ubuntu 
 
 Verifique em perfis se o perfil do sistema foi criado. 
 
-Acesse o site da microsoft para mais configurações 
+Acesse o site da microsoft para mais configuraÃ§Ãµes 
 
 https://docs.microsoft.com/pt-br/windows/terminal/install
 
 ### Vscode
 
-Baixe o editor de texto vscode através do site, é possivel baixar ele através o store tambem.
+Baixe o editor de texto vscode atravÃ©s do site, Ã© possivel baixar ele atravÃ©s o store tambem.
 
-Este editor de texto gratuito é uma ferramenta poderosa para desenvolvimento. 
+Este editor de texto gratuito Ã© uma ferramenta poderosa para desenvolvimento. 
 
-Caso tenha duvidas para criação do ambiente acesse
+Caso tenha duvidas para criaÃ§Ã£o do ambiente acesse
 
 https://docs.microsoft.com/pt-br/windows/wsl/setup/environment?source=recommendations
 
 --- 
 ## Git 
 
-O git já vem instalado por padrão nesta versão do ubuntu não sendo necessário realizar o download dele. 
+O git jÃ¡ vem instalado por padrÃ£o nesta versÃ£o do ubuntu nÃ£o sendo necessÃ¡rio realizar o download dele. 
 
-Caso tenha baixado uma outra versão da distro realize a instalação do git 
+Caso tenha baixado uma outra versÃ£o da distro realize a instalaÃ§Ã£o do git 
 
 > sudo apt update & apt install git
