@@ -1,29 +1,29 @@
-Git - reposit?rios
+Git - repositórios
 ---
 
-Para trabalharmos com o reposit?rio remoto ? necess?rio que o mesmo esteja criado nele. 
+Para trabalharmos com o repositório remoto é necessário que o mesmo esteja criado nele. 
 
-Acesse o github e crie um novo reposit?rio. 
+Acesse o github e crie um novo repositório. 
 
-- De o nome para o reposit?rio
-- Descreva o reposit?rio - opcional
-- Defina se ele vai ser p?blico ou privado
+- De o nome para o repositório
+- Descreva o repositório - opcional
+- Defina se ele vai ser público ou privado
 - Adicione o arquivo readme - opcional
 - Adicione arquivos do gitignore - opcional
-- Escolha a licen?a
+- Escolha a licença
 
-Clique em criar reposit?rio
+Clique em criar repositório
 
-Ao criar o reposit?rio voc? poder? fazer alguma dessas seguintes a??es:
+Ao criar o repositório você poderá fazer alguma dessas seguintes ações:
 
-* Editar o reposit?rio diretamente no navegador.
-* Criar um novo reposit?rio local e enviar para o remoto.
-* Ou enviar do seu reposit?rio para o remoto.
-* ou importa codigos de um outro reposit?rio
+* Editar o repositório diretamente no navegador.
+* Criar um novo repositório local e enviar para o remoto.
+* Ou enviar do seu repositório para o remoto.
+* ou importa codigos de um outro repositório
 
-N?o abordaremos a edi??o ou a cria??o de um novo reposit?rio
+não abordaremos a edição ou a criação de um novo repositório
 
-Enviando reposit?rio local para o remoto.
+Enviando repositório local para o remoto.
 
 > git remote add origin git@github.com:conta_github/repositorio.git <br>
 > git branch -M main<br>
