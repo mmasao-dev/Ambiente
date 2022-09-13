@@ -14,7 +14,7 @@ Utilizaremos o github como exemplo.
 
 ## Github
 
-Crie a conta do github seguindo as instru??es
+Crie a conta do github seguindo as instruções
 
 github.com/signup
 
