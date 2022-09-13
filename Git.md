@@ -28,21 +28,21 @@ github.com/signup
 
 ### *Enviar Commits*
 
-*Para subir seus códigos locais para o repositório remoto são utilizados 2 protocolos, via https ou ssh.*
+*Para subir seus códigos locais para o repositório remoto são utilizados 2 protocolos, via https ou ssh.* </b>
 
 ### *Https*
 
 *Neste protocolo se utiliza o https onde seus commits são enviados atrav?s de login e senha do github*
 
- *Serésolicitado o nome do seu usuário e a senha toda a vez que o commit for realizado.*
+ *Será solicitado o nome do seu usuário e a senha toda a vez que o commit for realizado.*
 
 ## *SSH-key*
 
-*Neste m?todo o commit será enviado automaticamente, sem a necessidade de digitar seu usuário e senha a cada commit.*
+*Neste método o commit será enviado automaticamente, sem a necessidade de digitar seu usuário e senha a cada commit.*
 
-*Antes de adicionar a chave, énecessário pegar a chave ou criar uma para o uso .*
+*Antes de adicionar a chave, é necessário pegar a chave ou criar uma para o uso .*
 
-*Eu recomendo criar uma chave espec?fica para cada uso.*
+*Eu recomendo criar uma chave específica para cada uso.*
 
 *Se você já possui uma chave rsa, verifique o arquivo id_rsa.pub está no seu diretório .ssh*
 
@@ -115,7 +115,7 @@ ssh-rsa iasbq321sSDFDAGFojads... MA3dcgV34aaf==seu_email@seu.dominio*
 
 ### *configuração Git local*
 
-*Realize a configuração do git para identifica??o*
+*Realize a configuração do git para identificação*
 
 > *git config --global user.name "Fulano de Tal"*
 
