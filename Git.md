@@ -4,51 +4,49 @@
 
 Iremos abordar apenas um resumo, quanto a historia do git sugiro ler algum livro
 
-O git foi criado para a gest„o de versionamento do software, para que cada colaborador possa contribuir simultaneamente no mesmo projeto, tendo o minimo de divergencias na estrutura do codigo.
+O git foi criado para a gest√£o de versionamento do software, para que cada colaborador possa contribuir simultaneamente no mesmo projeto, tendo o minimo de divergencias na estrutura do codigo.
 
-Podemos ter o git apenas localmente para que vocÍ controle as suas versıes de cÛdigos.
+Podemos ter o git apenas localmente para que voc√™ controle as suas vers√µes de c√≥digos.
 
-Para que o codigo seja compartilhado com mais colaboradores È necess·rio que haja um repositÛrio git, podemos citar o gitlab, gitbucket, github dentre outros.
+Para que o codigo seja compartilhado com mais colaboradores √© necess√°rio que haja um reposit√≥rio git, podemos citar o gitlab, gitbucket, github dentre outros.
 
 Utilizaremos o github como exemplo.
 
 ## Github
 
-Crie a conta do github seguindo as instruÁıes
+Crie a conta do github seguindo as instru√ß√µes
 
 github.com/signup
 
-<i>
-    <b>
-
-* ***Entre com seu e-mail***
-* *Crie uma senha**
-
-* **Confirme sua conta no e-mail enviado pelo sistema.**</i>
+<i> <b>
+- Entre com seu e-mail
+- Crie uma senha
+- Confirme sua conta no e-mail enviado pelo sistema
+</i>
 
 ### *Enviar Commits*
 
-*Para subir seus cÛdigos locais para o repositÛrio remoto s„o utilizados 2 protocolos, via https ou ssh.* </b>
+*Para subir seus c√≥digos locais para o reposit√≥rio remoto s√£o utilizados 2 protocolos, via https ou ssh.* </b>
 
 ### *Https*
 
-*Neste protocolo se utiliza o https onde seus commits s„o enviados atrav?s de login e senha do github*
+*Neste protocolo se utiliza o https onde seus commits s√£o enviados atrav√©s de login e senha do github*
 
- *Ser· solicitado o nome do seu usu·rio e a senha toda a vez que o commit for realizado.*
+ *Ser√° solicitado o nome do seu usu√°rio e a senha toda a vez que o commit for realizado.*
 
-## *SSH-key*
+### *SSH-key*
 
-*Neste mÈtodo o commit ser· enviado automaticamente, sem a necessidade de digitar seu usu·rio e senha a cada commit.*
+*Neste m√©todo o commit ser√° enviado automaticamente, sem a necessidade de digitar seu usu√°rio e senha a cada commit.*
 
-*Antes de adicionar a chave, È necess·rio pegar a chave ou criar uma para o uso .*
+*Antes de adicionar a chave, √© necess√°rio pegar a chave ou criar uma para o uso .*
 
-*Eu recomendo criar uma chave especÌfica para cada uso.*
+*Eu recomendo criar uma chave espec√≠fica para cada uso.*
 
-*Se vocÍ j· possui uma chave rsa, verifique o arquivo id_rsa.pub est· no seu diretÛrio .ssh*
+*Se voc√™ j√° possui uma chave rsa, verifique o arquivo id_rsa.pub est√° no seu diret√≥rio .ssh*
 
 > *ls -lah ~/.ssh/*
 
-*Caso j· possua e n„o queira gerar uma outra chave passe para a parte de adicionar a chave ao repositÛrio github.*
+*Caso j√° possua e n√£o queira gerar uma outra chave passe para a parte de adicionar a chave ao reposit√≥rio github.*
 
 ### *Gerando uma ssh-key*
 
@@ -56,7 +54,7 @@ github.com/signup
 
  *ssh-V*
 
- *Caso n„o possuo instale o pacote com o comando*
+ *Caso n√£o possuo instale o pacote com o comando*
 
 > *sudo apt install openssh-client -y*
 
@@ -64,7 +62,7 @@ github.com/signup
 
 > *ssh-keygen -t rsa -b 4096 -f ~/.ssh/id_rsa_nome_personalizado -C "seu_email@seu.dominio"*
 
-*Entre com uma senha, n„o È obrigatÛrio.*
+*Entre com uma senha, n√£o √© obrigat√≥rio.*
 
 *No caso de duvida quanto aos parametros acesse o*
 
@@ -80,13 +78,13 @@ leia o arquivo gerado pela ssk-key <b>.pub</b>*
 *exemplo:
 ssh-rsa iasbq321sSDFDAGFojads... MA3dcgV34aaf==seu_email@seu.dominio*
 
-*Abra o github e v· nas configuraÁıes, em SSH and GPG keys adione uma nova chave*
+*Abra o github e v√° nas configura√ß√µes, em SSH and GPG keys adione uma nova chave*
 
 *https://github.com/settings/keys*
 
 *Sincronizar o ssh*
 
-*Verifique se o ssh-agent est· rodando*
+*Verifique se o ssh-agent est√° rodando*
 
 > *eval $(ssh-agent -s)*
 
@@ -96,7 +94,7 @@ ssh-rsa iasbq321sSDFDAGFojads... MA3dcgV34aaf==seu_email@seu.dominio*
 
  *Caso tenha colocado senha o agente vai solicitar ela.*
 
-*Testar a conex„o*
+*Testar a conex√£o*
 
 > *ssh -T git@github.com*
 
@@ -104,25 +102,25 @@ ssh-rsa iasbq321sSDFDAGFojads... MA3dcgV34aaf==seu_email@seu.dominio*
     ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
     This key is not known by any other names*
 
-*ser· solicitado a adiÁ„o de seguranÁa do ssh remoto (! Leia sobre fingerprint)*
+*ser√° solicitado a adi√ß√£o de seguran√ßa do ssh remoto (! Leia sobre fingerprint)*
 
- *Are you sure you want to continue connecting (yes/no/[fingerprint])Èyes
+ *Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
     Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.*
 
-*Se estiver ok a mensagem abaixo ser· exibida*
+*Se estiver ok a mensagem abaixo ser√° exibida*
 
  *Hi Conta_git_hub! You've successfully authenticated, but GitHub does not provide shell access.*
 
-### *configuraÁ„o Git local*
+### *configura√ß√£o Git local*
 
-*Realize a configuraÁ„o do git para identificaÁ„o*
+*Realize a configura√ß√£o do git para identifica√ß√£o*
 
 > *git config --global user.name "Fulano de Tal"*
 
 > *git config --global user.email seuemail@seudominio*
 
-*Estas configuraÁıes s„o necess·rio para identificar o autor no caso de se conectar com algum repositÛrio git.*
+*Estas configura√ß√µes s√£o necess√°rio para identificar o autor no caso de se conectar com algum reposit√≥rio git.*
 
-<u> A conex„o entre o seu repositÛrio local e o repositorio remoto est· configurado.*
+<u> A conex√£o entre o seu reposit√≥rio local e o repositorio remoto est√° configurado.*
 
 ---
