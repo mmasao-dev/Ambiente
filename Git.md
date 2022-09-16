@@ -30,7 +30,8 @@ github.com/signup
 
 ### *Https*
 
-*Neste protocolo se utiliza o https onde seus commits são enviados através de login e senha do github*
+*Neste protocolo se utiliza o https onde seus commits são enviados atravé
+s de login e senha do github*
 
  *Será solicitado o nome do seu usuário e a senha toda a vez que o commit for realizado.*
 
