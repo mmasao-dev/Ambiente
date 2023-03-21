@@ -1,6 +1,6 @@
 # Git
 
-## O que ?
+## O que é
 
 Iremos abordar apenas um resumo, quanto a historia do git sugiro ler algum livro
 
