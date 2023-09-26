@@ -1,4 +1,4 @@
-# Git
+# Git  :raised_hand:
 
 ## O que é
 
